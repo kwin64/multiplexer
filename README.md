@@ -122,11 +122,13 @@ mux = Mux10([
 result = mux.select(0, 0, 1, 0)
 
 print(result)
-
+```
 
 Результат:
 
+```text
 0
+```
 
 Адрес 0010 выбирает вход D2.
 
